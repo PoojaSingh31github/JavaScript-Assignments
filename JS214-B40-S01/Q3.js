@@ -10,6 +10,11 @@ const employees = [
   { name: "Alex Johnson", age: 35, department: "IT", salary: 70000 },
   { name: "Maria Lopez", age: 29, department: "Finance", salary: 65000 },
   { name: "Maria Lopez", age: 29, department: "Finance", salary: 62000 },
+  { name: "Maria Lopez", age: 29, department: "Finance", salary: 62000 },
+  { name: "Maria Lopez", age: 29, department: "Finance", salary: 62000 },
+  { name: "Maria Lopez", age: 29, department: "Finance", salary: 62000 },
+  { name: "Maria Lopez", age: 29, department: "Finance", salary: 62000 },
+  { name: "Maria Lopez", age: 29, department: "Finance", salary: 62000 },
 ];
 
 console.log(employeesInDepartment(employees, "Finance")); // Output: ['Jane Smith', 'Maria Lopez']
